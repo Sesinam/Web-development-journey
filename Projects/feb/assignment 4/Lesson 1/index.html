@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: blue;
+    }
+li{
+    float: right;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: slateblue;
+}
+li a:hover {
+  background-color: white;
+}
+#main {
+    float: left;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#head{
+    font-size:"80%";
+    font-family:verdana; 
+    text-align:center;
+}
+#vid {
+    width:1000px;
+    height:400px;
+    float: center;
+}
+#asfo{
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.position{
+    float: right;
+}
+    </style>
+    <title>Introductory Coursework Assignment</title>
+</head>
+<body>
+<ul>
+<li id="main"><a href="#coursework">COURSEWORK</a></li> 
+<li title="CONTACT US"><a href="#contact us">CONTACT US</a></li>
+<li title="JOIN US"><a href="#join us">JOIN US</a></li>
+<li title="ABOUT US"><a href="#about us">ABOUT US</a></li>
+<li title="HOME"><a href="#home">HOME</a></li>
+</ul>
+<section>
+    <h1 id="head">Developers In Vogue</h1>
+    <p font-size="90%">A sisterhood dedicated and committed to the development of ladies in STEM. Co-Founded by Miss. Ivy Barley. Developers in Vogue helps train ladies with the passion for technology in growing and developing their passion.</p>
+    <p font-size="90%">One of the missions of Developers in Vogue is to bridge the gap in the tech divide.</p>
+</section>
+    <video id="vid" controls>
+        <source src="ib.mp4" type="video/mp4">
+        <source src="ib.ogg" type="video/ogg">
+        Unsupported video tag
+    </video>
+<aside class=position>
+    <h3 id="asfo">Newsletter</h3>
+    <p>Enter your email address to get updates of our events and programs.</p>
+<form target="_self" method="post">
+    E-mail address:<br/>
+<input title="email address" type="text" name="Email"><br/>
+Confirm e-mail address:<br/>
+<input title="confirm email address" type="text" name="Confirm email"><br><br>
+<input title= "Subscribe" type="submit" name="Subscribe">
+</form>
+</aside>
+</body>
+</html>

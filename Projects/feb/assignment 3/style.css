@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Felipa&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Felipa|Playfair+Display:400,400i,700,700i,900,900i&subset=cyrillic,latin-ext,vietnamese');
+
+body{
+    color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(245, 245, 245, 0.5);
+    font-family: "Felipa", sans-serif;
+    font-size: 700;
+    display: block;
+    height:100vh;
+    position:absolute;
+}
+
+body>ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+body>ul>li{
+    float: right;
+}
+li a{
+    color:black;
+    padding:10px;
+    text-emphasis: em;
+    text-decoration: none;
+    font-size: 900;
+    font-style:bold;
+}
+li a:hover{
+    background-color: rgba(245, 245, 245, 0.904);
+    transition-delay: 500ms;
+}
+
+h1{
+    font-size:80px;
+    text-align:center;
+    color:rgba(0, 0, 0, 0.966);
+}
+
+h1:hover{
+    color:rgba(0, 0, 255, 0.384);
+}
+
+body>p{
+    margin-left:100px;
+    width: 1200px;
+    height:300px;
+    overflow:scroll;
+    color:rgba(0, 0, 0, 0.938);
+    display:inline-block;
+    font-family: "Arial";
+}
+
+body>div{
+    display:inline-block;
+}
+
+img{
+   margin:60px;
+   border: 2px solid rgba(0, 0, 0, 0.26); 
+   width:300px;
+   height:150px;
+   box-shadow:-2px;
+   padding:none;
+   border-spacing: 50px;
+}
+
+table,th,td{
+    color:rgba(0, 0, 0, 0.904);
+    border: 2px solid black;
+    border-collapse:collapse;
+}
+
+body>table{
+    float:left;
+    margin-left:100px;
+    margin-top:40px;
+    padding-left:90px;
+}
+
+body>table>caption{
+    font-style:italic;
+    font-size:50px;
+}
+
+body>aside{
+    float: right;
+    margin-right:40px;
+    padding-right:10px;
+}
+body>aside>p{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.774);
+}
+body>aside>form>input:active{
+    background-color:rgba(128, 128, 128, 0.966);
+    transition: all 1s;
+}
+footer{
+    font-style:oblique;
+    display:block;
+    position:fixed;
+    height:100vh;
+}

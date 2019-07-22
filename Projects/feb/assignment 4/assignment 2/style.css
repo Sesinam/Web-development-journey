@@ -1,0 +1,36 @@
+body{
+    background: rgba(128, 128, 128, 0.4)
+}
+
+h1{
+    text-align: center;
+    color: gray;
+    font-weight: 200px;
+    font-style: italic;
+    font-family: Verdana, sans-serif;
+    display: block;
+}
+
+.adapt:hover{
+    color: rgba(0, 17, 255, 0.5);
+    transition: all 1s;
+    transition-delay: 100ms;
+}
+
+#face{
+    font-style:oblique;
+    font-weight:20px;
+    font-family: "Arial", sans-serif;
+    color: rgba(128, 128, 128, 0.979);
+    margin:none;
+    text-align:center;
+}
+
+img{
+    height:800px;
+    width:800px;
+    border-radius:100%;   
+    object-position:center;
+    position: relative;
+}
+

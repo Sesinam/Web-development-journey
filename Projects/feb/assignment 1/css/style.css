@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Felipa&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Felipa|Playfair+Display:400,400i,700,700i,900,900i&subset=cyrillic,latin-ext,vietnamese');
+body {
+    background: rgba(150, 100, 200, 0.5);
+    color:#0004f2;
+    font-family: 'Felipa', sans-serif;
+    font-weight: 400px !important;
+    text-align: left;
+}
+body > h3 { 
+    font-weight: 900px;
+    font-style: bold italic;
+    font-family: 'Playfair Display', sans-serif;
+    color: #a1c3b6;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.5);  
+}
+.position {
+    border-bottom: 1px solid #000 ;
+    margin: 10px;
+    padding-left: 40px;
+    word-spacing: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
